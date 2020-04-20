@@ -273,6 +273,8 @@ Error message and password prompt
 
 <li>$:/plugins/tobibeer/appear</li>
 
+<li>$:/plugins/tobibeer/appear/defaults/keep</li>
+
 <li>$:/plugins/tobibeer/preview</li>
 
 <li>$:/plugins/tobibeer/preview/defaults/delay</li>
@@ -288,6 +290,8 @@ Error message and password prompt
 <li>$:/state/edit/references-1384428731</li>
 
 <li>$:/state/plugin-info--2135486722-$:/plugins/tobibeer/preview---1090399154</li>
+
+<li>$:/state/plugin-info--795648560-$:/plugins/tobibeer/appear--448029843</li>
 
 <li>$:/state/showeditpreview</li>
 
@@ -308,6 +312,8 @@ Error message and password prompt
 <li>$:/state/tab--959111941</li>
 
 <li>$:/state/tab-11433013</li>
+
+<li>$:/state/tab-1528275152</li>
 
 <li>$:/state/tab-1749438307</li>
 
@@ -544,6 +550,8 @@ Error message and password prompt
 <li>$:/temp/search</li>
 
 <li>$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.22/index.html</li>
+
+<li>$:/temp/tobibeer/preview-1-tiddler</li>
 
 <li>$:/theme</li>
 
@@ -1095,8 +1103,8 @@ placeholder=&quot;$placeholder$&quot;/&gt;
 <div created="20200420113038364" creator="yoni" modified="20200420113038364" modifier="yoni" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/close">
 <pre>hide</pre>
 </div>
-<div created="20200420113036988" creator="yoni" modified="20200420113036988" modifier="yoni" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/edit">
-<pre>hide</pre>
+<div created="20200420113036988" creator="yoni" modified="20200420142859292" modifier="yoni" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/edit">
+<pre>show</pre>
 </div>
 <div created="20200420113034898" creator="yoni" modified="20200420113034898" modifier="yoni" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/more-tiddler-actions">
 <pre>hide</pre>
@@ -12299,6 +12307,9 @@ exports.context = contextWidget;
     }
 }</pre>
 </div>
+<div created="20200420142922250" creator="yoni" modified="20200420142926378" modifier="yoni" title="$:/plugins/tobibeer/appear/defaults/keep">
+<pre>no</pre>
+</div>
 <div author="Tobias Beer" bag="default" core-version="&gt;=5.1.9" dependents="" description="Shows a tiddler preview when hovering internal links" documentation="https://tobibeer.github.io/tw5-preview" list="readme config" plugin-type="plugin" requires="[[tobibeer/appear|http://tobibeer.github.io/tw5-plugins/#appear]]" revision="0" source="https://github.com/tobibeer/tw5-preview" title="$:/plugins/tobibeer/preview" type="application/json" version="0.5.6">
 <pre>{
     &quot;tiddlers&quot;: {
@@ -12409,8 +12420,11 @@ exports.context = contextWidget;
 <div created="20200420110913050" modified="20200420110913050" title="$:/state/edit/references-1384428731">
 <pre>show</pre>
 </div>
-<div created="20200420142309371" creator="yoni" modified="20200420142309371" modifier="yoni" title="$:/state/plugin-info--2135486722-$:/plugins/tobibeer/preview---1090399154">
-<pre>config</pre>
+<div created="20200420142309371" creator="yoni" modified="20200420142509830" modifier="yoni" title="$:/state/plugin-info--2135486722-$:/plugins/tobibeer/preview---1090399154">
+<pre>readme</pre>
+</div>
+<div created="20200420142541336" creator="yoni" modified="20200420142844487" modifier="yoni" title="$:/state/plugin-info--795648560-$:/plugins/tobibeer/appear--448029843">
+<pre>contents</pre>
 </div>
 <div created="20200420070113510" modified="20200420070113510" title="$:/state/showeditpreview">
 <pre>yes</pre>
@@ -12442,6 +12456,9 @@ exports.context = contextWidget;
 <div created="20200420082221512" modified="20200420082223258" title="$:/state/tab-11433013">
 <pre>.hideList</pre>
 </div>
+<div created="20200420142638811" creator="yoni" modified="20200420142640207" modifier="yoni" title="$:/state/tab-1528275152">
+<pre>$:/core/ui/DefaultSearchResultList</pre>
+</div>
 <div created="20200419124411978" creator="yoni" modified="20200420140318004" modifier="yoni" title="$:/state/tab-1749438307">
 <pre>$:/core/ui/ControlPanel/Appearance</pre>
 </div>
@@ -12451,11 +12468,11 @@ exports.context = contextWidget;
 <div created="20200420113451226" creator="yoni" modified="20200420140457406" modifier="yoni" title="$:/state/tab/moresidebar-1850697562">
 <pre>$:/core/ui/MoreSideBar/All</pre>
 </div>
-<div created="20200419110930955" creator="yoni" modified="20200420141302399" modifier="yoni" title="$:/state/tab/sidebar--595412856">
+<div created="20200419110930955" creator="yoni" modified="20200420142729827" modifier="yoni" title="$:/state/tab/sidebar--595412856">
 <pre>$:/core/ui/SideBar/Open</pre>
 </div>
-<div created="20200420113009928" creator="yoni" modified="20200420140322164" modifier="yoni" title="$:/state/tabs/controlpanel/toolbars-1345989671">
-<pre>$:/plugins/tiddlywiki/menubar/config</pre>
+<div created="20200420113009928" creator="yoni" modified="20200420142855924" modifier="yoni" title="$:/state/tabs/controlpanel/toolbars-1345989671">
+<pre>$:/core/ui/ControlPanel/Toolbars/ViewToolbar</pre>
 </div>
 <div title="$:/status/RequireReloadDueToPluginChange">
 <pre>no</pre>
@@ -12463,7 +12480,7 @@ exports.context = contextWidget;
 <div created="20200420112822639" creator="y" modified="20200420112823342" modifier="yon" title="$:/status/UserName">
 <pre>yoni</pre>
 </div>
-<div created="20200420142235438" creator="yoni" list="$:/Import $:/plugins/tobibeer/preview $:/plugins/tobibeer/appear" modified="20200420142301008" modifier="yoni" title="$:/StoryList">
+<div created="20200420142847323" creator="yoni" list="$:/ControlPanel [[How I use this blog]] $:/Import $:/plugins/tobibeer/preview $:/plugins/tobibeer/appear $:/plugins/tobibeer/appear/defaults/keep $:/plugins/tobibeer/appear/popup.js $:/plugins/tobibeer/appear/defaults/default-state $:/temp/appear/" modified="20200420142852835" modifier="yoni" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20200127163609843" list="$:/jd/fullscreen-editor/EditButton $:/core/ui/Buttons/delete $:/core/ui/Buttons/cancel $:/core/ui/Buttons/save" modified="20200304200339220" tags="tb" title="$:/tags/EditToolbar">
@@ -13495,11 +13512,14 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 <div created="20200420110452263" modified="20200420110504475" title="$:/temp/sbartidddisplayvalue">
 <pre>Themes</pre>
 </div>
-<div created="20200420102852703" creator="yoni" modified="20200420141303493" modifier="yoni" title="$:/temp/search">
-<pre></pre>
+<div created="20200420102852703" creator="yoni" modified="20200420142635353" modifier="yoni" title="$:/temp/search">
+<pre>sticky</pre>
 </div>
 <div created="20200420140100924" creator="yoni" modified="20200420140100924" modifier="yoni" tags="$:/tags/ServerConnection" title="$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.22/index.html" url="https://tiddlywiki.com/library/v5.1.22/index.html">
 <pre>loaded</pre>
+</div>
+<div created="20200420142416823" creator="yoni" modified="20200420142429591" modifier="yoni" title="$:/temp/tobibeer/preview-1-tiddler">
+<pre>Reasons to blog</pre>
 </div>
 <div bag="default" revision="0" title="$:/theme">
 <pre>$:/themes/tiddlywiki/vanilla</pre>
